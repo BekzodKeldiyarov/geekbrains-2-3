@@ -1,19 +1,20 @@
+import com.bekzodkeldiyarov.firstTask.WordsTest;
 import com.bekzodkeldiyarov.secondTask.PhoneBook;
 import com.bekzodkeldiyarov.secondTask.PhoneBookTest;
 
 public class App {
     public static void main(String[] args) {
 
-//        Words words = new Words();
-//        words.addWord("Test");
-//        words.addWord("Test2");
-//        words.addWord("Test");
-//        words.showWords();
-//        words.showCountOfWords();
 
-//        System.out.println(phoneBook.toString());
+        // Первая задача
+        WordsTest wordsTest = new WordsTest();
+        wordsTest.start();
 
-        PhoneBookTest phoneBookTest = new PhoneBookTest();
-        phoneBookTest.start();
+
+        // Вторая задача
+//        PhoneBookTest phoneBookTest = new PhoneBookTest();
+//        phoneBookTest.start();
     }
+
+    // test
 }
